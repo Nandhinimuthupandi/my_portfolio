@@ -1,0 +1,79 @@
+.project {
+    background-color: #161625;
+    color: black;
+  }
+  
+  .project > h1 {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+  }
+  .dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .dropdown > select {
+    padding: 7px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .project-container {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .project-card {
+    width: 20rem !important;
+    margin: 40px 15px;
+  }
+  .project-card > img {
+    width: 100% !important;
+    height: auto;
+  }
+  .project-card > div {
+    background-color: white;
+  }
+  
+  .project-card > div > h5 {
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+  }
+  .project-card > div > p {
+    margin: 0;
+    text-indent: 40px;
+    padding: 5px;
+    min-height: 90px;
+    max-height: 90px;
+    overflow: auto;
+  }
+  
+  .buttons {
+    background-color: #fbf4f4 !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .buttons button {
+    background-color: #8c39e0;
+    padding: 6px 17px;
+    border: none;
+    border: 5px;
+    color: white;
+  }
+  
+  .buttons button:hover {
+    background-color: green;
+    color: black;
+  }
+  
+  .project-highlight {
+    color: #c770f0;
+  }
+  
+  
